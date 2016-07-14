@@ -1,12 +1,12 @@
-# globals for dcadec-0.2.0-20160504-df18a5f.tar
-%global gitdate 20160504
-%global gitversion df18a5f
+# globals for dcadec-0.2.0-20160711-b93deed.tar
+%global gitdate 20160711
+%global gitversion b93deed
 %global snapshot %{gitdate}-%{gitversion}
 %global gver .%{gitdate}git%{gitversion}
 
 Name:           dcadec
 Version:        0.2.0
-Release:	2%{?gver}%{dist}
+Release:	3%{?gver}%{dist}
 Summary:        DTS Coherent Acoustics decoder with support for HD extensions
 License:        LGPLv2
 Group: 		Applications/Multimedia
@@ -89,8 +89,11 @@ chmod a+x %{buildroot}/%{_libdir}/lib%{name}.so.0.1.0
 
 %changelog
 
-* Wed May 04 2016 David Vásquez <davidjeremias82 at gmail dot com> - 0.2.0-20160504-df18a5f-2
-- Updated to 0.2.0-20160504-df18a5f
+* Mon Jul 11 2016 David Vásquez <davidjeremias82 at gmail dot com> - 0.2.0-3-20160711gitb93deed
+- Updated to 0.2.0-20160711gitb93deed
+
+* Wed May 04 2016 David Vásquez <davidjeremias82 at gmail dot com> - 0.2.0-2-20160504gitdf18a5f
+- Updated to 0.2.0-20160504gitdf18a5f
 - Solved rpmlint issues
 
 * Thu Mar 03 2016 David Vásquez <davidjeremias82 at gmail dot com> - 0.2.0-1
