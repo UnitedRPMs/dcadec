@@ -1,4 +1,6 @@
 #           dcadec
+
+[![Build Status](https://travis-ci.org/UnitedRPMs/dcadec.svg?branch=master)](https://travis-ci.org/UnitedRPMs/dcadec)
  
 Summary:        DTS Coherent Acoustics decoder with support for HD extensions
  
